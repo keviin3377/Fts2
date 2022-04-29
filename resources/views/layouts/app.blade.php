@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
+    <link rel="icon" href="Fts2/resources/css/carrito/logo.jpeg">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     
 </head>

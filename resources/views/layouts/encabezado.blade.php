@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="../resources\css\blade\encabezado.css">
+<link rel="icon" href="Fts2/resources/css/carrito/logo.jpeg">
 
 <script src="{{ asset('js/app.js') }}" defer></script>
     
@@ -12,23 +13,26 @@
     
             <ul>
                 <li><a href="{{route('novedades')}}" class="">Novedades</a></li>
+                
                 <li>
+               
                     <div class="header-section container">
+                    <a href="http://localhost/Fts2/public/formularios">
                         <div>
-                            <img onmouseover="showCart(this)" class="cart img-fluid" src="../resources/css/carrito/cart.png" alt="">
+                            <img onmouseover="showCart(this)" class="cart" src="../resources/css/carrito/cart.png" alt="">
                             <p class="count-product">0</p>
                         </div>
                         <div class="cart-products" id="products-id">
                             <p class="close-btn" onclick="closeBtn()">X</p>
                             <h3>Mi carrito</h3>
                             <div class="card-items">
-                        
                             </div>
-                            <h2>Total: <strong class="price-total">0</strong> $</h2>
+                            <div class="cartss">
+                            <h2>Total: <strong class="price-total">0</strong> $ <a href="{{route('formularios.pasarela')}}" data-id="1" class="btn-add-cart">Comprar</a></h2>
                         </div>
                     </div>
+                
     
-                    
                 </li>
                 @if (Route::has('login'))
                     @auth

@@ -73,12 +73,12 @@ Route::get('/novedades', function(){
     return view('novedades',  compact('productos', 'xbox', 'ps4', 'ps5', 'switch', 'pc'));
 })->name('novedades');
 
-Route::get('/pasarela', function () {
-    return view('pasarela');                  // Ruta Pasarela
+Route::get('formularios.pasarela', function () {
+    return view('formularios.pasarela');                  // Ruta Pasarela
 })->name('formularios.pasarela');
 
-Route::get('/factura', function () {
-    return view('factura');                  // Ruta Pasarela
+Route::get('formularios.factura', function () {
+    return view('formularios.factura');                  // Ruta Pasarela
 })->name('formularios.factura');
 
 Auth::routes();
