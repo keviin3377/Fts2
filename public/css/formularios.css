@@ -1,0 +1,98 @@
+.formulario{
+    display: block;
+    margin: auto;
+    width: 500px;
+    margin-top: 20px;
+    background-color: rgba(58, 57, 57, 0.774);
+    text-align: center;
+    border-radius: 20px;
+    
+}
+.logo{
+    border-radius: 360px;
+    width: 100px;
+}
+
+.formulario a{
+    color: orange;
+    text-decoration: underline;
+}
+
+.formulario1 a{
+    color: orange;
+    
+    text-decoration: none;
+}
+
+
+
+body{
+    background: url(../../resources/css/img/FTS.gif);
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: -180;
+}
+
+.formulario div{
+    display: block;
+    padding: 10px;
+    color: orange;
+    font-family: arial,sans-serif;
+}
+
+.formulario div input{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+}
+
+.formulario div button{
+    background-color: rgba(0, 0, 0, 0.692);
+    padding: 10px;
+    border-radius: 10px;
+    color: orange;
+}
+
+/* registro */
+
+.formulario1 div button{
+    background-color: rgba(0, 0, 0, 0.692);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.formulario1 div{
+    display: block;
+    padding: 3px;
+    color: orange;
+    
+}
+
+.formulario1 div input{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+}
+
+.formulario1{
+    display: block;
+    margin: auto;
+    width: 500px;
+    margin-top: 50px;
+    background-color: rgba(68, 67, 67, 0.774);
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+.captcha{
+    width: 350px;
+    margin: auto;
+}
+
+.mensaje{
+    color:orange;
+}

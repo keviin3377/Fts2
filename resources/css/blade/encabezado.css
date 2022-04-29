@@ -1,0 +1,83 @@
+body{
+    overflow-x: hidden;
+}
+
+
+nav .tittle{
+    text-decoration: none ;
+}
+
+nav{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo{
+    border-radius: 360px;
+    height: 70px;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: -200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+nav a:hover{
+    color: white;
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    margin-left: 1000px;
+}
+
+@media only screen and (max-width : 900px) {
+          nav ul{
+            display: inline-block;
+            list-style: none;
+            position: relative;
+            margin-left: 0px;
+          }
+    }
+
+nav li a{
+    text-decoration: none;
+    color: orange;
+}
+
+nav ul ul {
+    display:none;
+    position:absolute;
+    top:48px;
+    left: 480px;
+    background:rgb(0, 0, 0);
+    padding:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+nav ul ul li{
+    color: orange;
+    display: block;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin: 10px;
+    padding:10px;
+    width: 80px;
+}
+
+
+nav ul li:hover > ul {
+ display:block;
+ 
+
+}
